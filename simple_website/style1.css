@@ -1,0 +1,50 @@
+*{ 
+    list-style: none;
+}
+.header
+{
+    background-color: aqua;
+    font-size: larger;
+    height:100px;<!to set the height of the footer>
+    
+}
+.header-logo
+{
+    float: left;
+    font-size: 32px;
+    border-style:dashed;<!to draw a border around rankbook>
+    border-radius:20px;
+    border-color:white;
+    
+}
+
+.header-list{
+    background-color: aqua;
+    font-style: 18px;
+}
+.header-list ul li{
+    float:right;
+    padding:10px 5px 25px 25px;
+}
+.main{
+    background-color: aliceblue;
+    height:400px;
+}
+.footer{
+    background-color: aqua;
+    height:100px;
+}
+.footer-logo{
+    background-color: aqua;
+    font-size: 32px;
+    float:left;
+}
+.footer-list{
+    font-size: large;
+    background-color: aqua;
+}
+.footer-list li{
+    
+    float:right;
+    padding:10px 5px 25px 25px;
+}
